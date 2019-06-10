@@ -1,3 +1,5 @@
+NOTE: Architecture is heavily based on [InstaFram](https://github.com/jelic98/instafram)
+
 ![InfView Demo](demo.png)
 
 # 1. Introduction
@@ -17,13 +19,13 @@ In this document we use the following acronyms and abbreviations:
 * FUM - The functional model shows a set of cases of using systems and actors beyond the boundaries of the system
 * IR - Information resource includes knowledge, information and data used to solve problems, as well as technology systems related to acquisition, storage and processing of data
 * CRUD - Operations for creating, loading, updating and deleting data
-* Import - Automatic or semi-automatic import of data or datasets between applications [source](https://en.wikipedia.org/wiki/Import_and_export_of_data)
-* Export - Automatic or semi-automatic export of data or datasets between applications [source](https://en.wikipedia.org/wiki/Import_and_export_of_data)
-* Merge - Combining two or more different versions of data [source](https://www.techopedia.com/definition/1217/merge)
-* Sorting - Systematic editing process, editing items one by one by some criterion [source](https://en.wikipedia.org/wiki/Sorting)
+* Import - Automatic or semi-automatic import of data or datasets between applications; [source](https://en.wikipedia.org/wiki/Import_and_export_of_data)
+* Export - Automatic or semi-automatic export of data or datasets between applications; [source](https://en.wikipedia.org/wiki/Import_and_export_of_data)
+* Merge - Combining two or more different versions of data; [source](https://www.techopedia.com/definition/1217/merge)
+* Sorting - Systematic editing process, editing items one by one by some criterion; [source](https://en.wikipedia.org/wiki/Sorting)
 * Split - Separate the data set so that each part has different features
-* Cloning - The process of cloning is a method of making an exact copy of the data [source](https://www.techopedia.com/definition/31923/cloning-programming)
-* Localization - adapting a product or service to meet the needs of a particular language or culture [source](https://searchcio.techtarget.com/definition/localization)
+* Cloning - The process of cloning is a method of making an exact copy of the data; [source](https://www.techopedia.com/definition/31923/cloning-programming)
+* Localization - adapting a product or service to meet the needs of a particular language or culture; [source](https://searchcio.techtarget.com/definition/localization)
 
 ## 1.3.Overview
 
@@ -113,7 +115,7 @@ The user has the ability to read the instructions to be accessed from the progra
 
 Online help is intended for users who did not help the instruction or use the tool for a specific case. The user has the ability to ask at any time the question whose answer is received within 24 hours. The question is asked by filling in the [form](https://www.lazarjelic.com/ecloga/projects/software_admin/help.php).
 
-# 4. PowerDesigner models
+# 6. PowerDesigner models
 
 [Requirement Model](https://github.com/jelic98/infview/blob/master/models/RequirementsModel.rqm)
 
