@@ -1,6 +1,5 @@
 *.ivl
 *.ivc
-*.ivr
 .DS_Store
 .classpath
 .project
