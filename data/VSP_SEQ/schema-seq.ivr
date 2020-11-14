@@ -1,0 +1,282 @@
+{
+  "id": 1,
+  "name": "VSP_SEQ",
+  "type": "sequential_file",
+  "options": {
+    "extension": ".seq"
+  },
+  "entities": [
+    {
+      "id": 0,
+      "name": "Studenti",
+      "attributes": [
+        {
+          "id": 0,
+          "name": "STRUKA",
+          "type": "string",
+          "primary": true,
+          "required": true,
+          "length": 1,
+          "options": {
+            "minLength": 1,
+            "maxLength": 1
+          }
+        },
+        {
+          "id": 1,
+          "name": "BROJ_INDEKSA",
+          "type": "integer",
+          "primary": true,
+          "required": true,
+          "length": 6
+        },
+        {
+          "id": 3,
+          "name": "PREZIME",
+          "type": "string",
+          "length": 20
+        },
+        {
+          "id": 4,
+          "name": "IME_RODITELJA",
+          "type": "string",
+          "length": 20
+        },
+        {
+          "id": 5,
+          "name": "IME",
+          "type": "string",
+          "length": 20
+        },
+        {
+          "id": 6,
+          "name": "POL",
+          "type": "string",
+          "length": 1,
+          "options": {
+            "minLength": 1,
+            "maxLength": 1
+          }
+        },
+        {
+          "id": 7,
+          "name": "JMBG",
+          "type": "string",
+          "length": 13,
+          "options": {
+            "minLength": 13,
+            "maxLength": 13
+          }
+        },
+        {
+          "id": 8,
+          "name": "DATUM_RODJENJA",
+          "type": "datetime",
+          "length": 25
+        },
+        {
+          "id": 9,
+          "name": "APrebivaLSISTED",
+          "type": "string",
+          "length": 80
+        },
+        {
+          "id": 10,
+          "name": "TELEFON",
+          "type": "string",
+          "length": 20
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "NastavniPredmeti",
+      "attributes": [
+        {
+          "id": 0,
+          "name": "OZNAKA_PLANA",
+          "type": "string",
+          "primary": true,
+          "required": true,
+          "length": 2,
+          "options": {
+            "minLength": 2,
+            "maxLength": 2
+          }
+        },
+        {
+          "id": 1,
+          "name": "SIFRA_PREDMETA",
+          "type": "string",
+          "primary": true,
+          "required": true,
+          "length": 5
+        },
+        {
+          "id": 2,
+          "name": "NAZIV_PREDMETA",
+          "type": "string",
+          "length": 80
+        },
+        {
+          "id": 3,
+          "name": "TRAJE_SEMESTARA",
+          "type": "integer",
+          "length": 2
+        },
+        {
+          "id": 4,
+          "name": "BROJ_KREDITA",
+          "type": "integer",
+          "length": 3
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "PlanStudijskogPrograma",
+      "attributes": [
+        {
+          "id": 0,
+          "name": "OZNAKA_PROGRAMA",
+          "type": "string",
+          "primary": true,
+          "required": true,
+          "length": 4,
+          "options": {
+            "minLength": 4,
+            "maxLength": 4
+          }
+        },
+        {
+          "id": 1,
+          "name": "OZNAKA_PLANA",
+          "type": "string",
+          "primary": true,
+          "required": true,
+          "length": 2,
+          "options": {
+            "minLength": 2,
+            "maxLength": 2
+          }
+        },
+        {
+          "id": 2,
+          "name": "SIFRA_PREDMETA",
+          "type": "string",
+          "primary": true,
+          "required": true,
+          "length": 5
+        },
+        {
+          "id": 3,
+          "name": "GODINA_PREDMETA",
+          "type": "integer",
+          "length": 1
+        },
+        {
+          "id": 4,
+          "name": "SEMESTAR_PREDMETA",
+          "type": "integer",
+          "length": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "StudijskiProgrami",
+      "attributes": [
+        {
+          "id": 0,
+          "name": "OZNAKA_PROGRAMA",
+          "type": "string",
+          "primary": true,
+          "required": true,
+          "length": 4,
+          "options": {
+            "minLength": 4,
+            "maxLength": 4
+          }
+        },
+        {
+          "id": 1,
+          "name": "NAZIV_KOJI_SE_STICE",
+          "type": "string",
+          "length": 80
+        },
+        {
+          "id": 1,
+          "name": "NAZIV PROGRAMA",
+          "type": "string",
+          "length": 80
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "TokStudija",
+      "attributes": [
+        {
+          "id": 0,
+          "name": "STRUKA",
+          "type": "string",
+          "primary": true,
+          "required": true,
+          "length": 1,
+          "options": {
+            "minLength": 1,
+            "maxLength": 1
+          }
+        },
+        {
+          "id": 1,
+          "name": "BROJ_INDEKSA",
+          "type": "string",
+          "primary": true,
+          "required": true,
+          "length": 6
+        },
+        {
+          "id": 2,
+          "name": "OZNAKA_PROGRAMA",
+          "type": "string",
+          "primary": true,
+          "required": true,
+          "length": 4,
+          "options": {
+            "minLength": 4,
+            "maxLength": 4
+          }
+        },
+        {
+          "id": 3,
+          "name": "SKOLSKA_GODINA",
+          "type": "string",
+          "primary": true,
+          "required": true,
+          "length": 4,
+          "options": {
+            "minLength": 4,
+            "maxLength": 4
+          }
+        },
+        {
+          "id": 4,
+          "name": "GODINA_STUDIJA",
+          "type": "integer",
+          "length": 1
+        },
+        {
+          "id": 5,
+          "name": "UPISUJE_PO_PLANU",
+          "type": "string",
+          "length": 2,
+          "options": {
+            "minLength": 2,
+            "maxLength": 2
+          }
+        }
+      ]
+    }
+  ]
+}
