@@ -122,3 +122,9 @@ Online help is intended for users who did not help the instruction or use the to
 [Requirement Model](https://github.com/jelic98/infview/blob/master/models/RequirementsModel.rqm)
 
 [Object Oriented Model](https://github.com/jelic98/infview/blob/master/models/ObjectOrientedModel.oom)
+
+[MPS Requirement Model](https://github.com/jelic98/infview/blob/master/models/MPS_RequirementsModel.rqm)
+
+[MPS Conceptual Data Model](https://github.com/jelic98/infview/blob/master/models/MPS_ConceptualDataModel.cdm)
+
+[MPS Physical Data Model](https://github.com/jelic98/infview/blob/master/models/MPS_PhysicalDataModel.pdm)
